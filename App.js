@@ -1,10 +1,10 @@
 // In App.js in a new project
 import * as React from 'react';
-import WebViewComponent from './components/webView';
-// import Modals from './components/Modal';
+import Modals from './components/Modal';
+import Drawer from './components/navigation/drawer';
 
 function App() {
-  return <WebViewComponent />;
+  return <Drawer />;
 }
 
 export default App;
